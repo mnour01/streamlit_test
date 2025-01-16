@@ -30,27 +30,27 @@ data = pd.DataFrame({
 st.write("Voici un DataFrame :", data)
 
 
-import matplotlib.pyplot as plt
-import numpy as np
+# import matplotlib.pyplot as plt
+# import numpy as np
 
-x = np.linspace(0, 10, 100)
-y = np.sin(x)
+# x = np.linspace(0, 10, 100)
+# y = np.sin(x)
 
-fig, ax = plt.subplots()
-ax.plot(x, y)
-st.pyplot(fig)
-
-
+# fig, ax = plt.subplots()
+# ax.plot(x, y)
+# st.pyplot(fig)
 
 
-import numpy as np
-import pandas as pd
 
-chart_data = pd.DataFrame(
-    np.random.randn(20, 3),
-    columns=['a', 'b', 'c']
-)
-st.line_chart(chart_data)
+
+# import numpy as np
+# import pandas as pd
+
+# chart_data = pd.DataFrame(
+#     np.random.randn(20, 3),
+#     columns=['a', 'b', 'c']
+# )
+# st.line_chart(chart_data)
 
 
 
