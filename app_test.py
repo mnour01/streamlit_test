@@ -1,7 +1,7 @@
 import streamlit as st
 
 st.title("Bonjour Streamlit!")
-st.header("Première application Mehdi")
+st.header("Première application Mehdi Nour")
 st.text("Ceci est une application simple utilisant Streamlit.")
 
 
@@ -9,25 +9,25 @@ name = st.text_input("Quel est votre nom?")
 st.write(f"Bonjour, {name}!")
 
 
-if st.button("Cliquez ici"):
-    st.write("Bouton cliqué!")
+# if st.button("Cliquez ici"):
+#     st.write("Bouton cliqué!")
 
 
-number = st.slider("Choisissez un nombre", 0, 100, 50)
-st.write(f"Le nombre choisi est {number}")
+# number = st.slider("Choisissez un nombre", 0, 100, 50)
+# st.write(f"Le nombre choisi est {number}")
 
 
-option = st.selectbox("Choisissez une option", ["Option 1", "Option 2", "Option 3"])
-st.write(f"Vous avez sélectionné {option}")
+# option = st.selectbox("Choisissez une option", ["Option 1", "Option 2", "Option 3"])
+# st.write(f"Vous avez sélectionné {option}")
 
 
-import pandas as pd
+# import pandas as pd
 
-data = pd.DataFrame({
-    'Colonne 1': [1, 2, 3, 4],
-    'Colonne 2': [10, 20, 30, 40]
-})
-st.write("Voici un DataFrame :", data)
+# data = pd.DataFrame({
+#     'Colonne 1': [1, 2, 3, 4],
+#     'Colonne 2': [10, 20, 30, 40]
+# })
+# st.write("Voici un DataFrame :", data)
 
 
 # import matplotlib.pyplot as plt
@@ -54,5 +54,5 @@ st.write("Voici un DataFrame :", data)
 
 
 
-if st.checkbox("Afficher un message secret"):
-    st.write("🎉 Vous avez trouvé le secret!")
+# if st.checkbox("Afficher un message secret"):
+#     st.write("🎉 Vous avez trouvé le secret!")
